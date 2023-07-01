@@ -1,0 +1,200 @@
+/*Universal Styles*/
+* {
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 5rem; /*Resize later if required*/
+    color: rgb(159, 41, 206);
+}
+
+button {
+    font-size: 1.5rem;  
+}
+
+div {
+    display: inline-block;
+}
+
+.container {
+    padding-left: 10px;
+    margin-bottom: 25px;
+    width: 100%;
+}
+
+h2 {
+    font-size: 2.5rem;
+    text-decoration: underline;
+    color: rgb(159, 41, 206);
+}
+
+p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+/*Header section*/
+header {
+    background-color: rgb(196, 93, 236);
+    padding: 1em;
+}
+#logo {
+    width: 10%;
+    padding-left: 2em
+}
+
+nav {
+    float: right;
+    margin: 40px 25px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    padding: 1.5em;
+    box-shadow: 1em 1em 1em purple;
+    border-radius: 1em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 2.25rem;
+    color: rgb(255, 238, 0);
+}
+
+/*About Section*/
+#info {
+    width: 74%;
+    padding-left: 10px;
+}
+
+#image {
+    width: 20%;
+}
+
+/*Profile Image*/
+
+#image img {
+    width: 75%;
+    padding-left: 60px;
+}
+
+/*Projects Section*/
+.project {
+    padding: 1em;
+}
+
+.project-title h3 {
+    display: inline;
+    font-size: 1.75rem;
+}
+
+/*Skills Section*/
+#html, #css, #javascript, #github {
+    width: 15%;
+}
+
+#css {
+    margin-left: -9em;
+}
+
+#javascript {
+    margin-left: -9em;
+}
+
+#github {
+    margin-left: -9em;
+}
+
+/*Skills Images*/
+#html img {
+    width: 30%;
+}
+
+#css img {
+    width: 30%;
+}
+
+#javascript img {
+    width: 30%;
+}
+
+#github img {
+    width: 30%
+}
+
+/*Contact Page Styles*/
+.contact {
+    margin-left: 1em;
+}
+
+table {
+    font-size: 1.5rem;
+}
+
+@media screen and (min-width:641px) and (max-width:1007px) {
+    .container {
+        text-align: center;
+    }
+
+    p, table {
+        font-size: 2rem;
+    }
+    
+    #logo {
+        margin-left: 40%;
+    }
+    
+    nav {
+        float: left;
+    }
+
+    nav ul {
+        background-color: rgb(196, 93, 236);
+        padding: 2em;
+        margin-top: -30px;
+    }
+    
+    nav ul li {
+        display: inline;
+        padding: 1.5em;
+        box-shadow: 1em 1em 1em purple;
+        border-radius: 1em;
+        background-color: rgb(196, 93, 236);
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+        font-size: 2.25rem;
+        color: rgb(255, 238, 0);
+    }
+
+    #image {
+        display: none;
+    }
+
+    /*Skills section*/
+    #css {
+        margin-left: 0;
+    }
+    #javascript {
+        margin-left: 0;
+    }
+    #github {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width:500px) {
+    p, table {
+        font-size: 3rem;
+    }
+
+    h3 {
+        font-size: 3.5rem;
+    }
+}
